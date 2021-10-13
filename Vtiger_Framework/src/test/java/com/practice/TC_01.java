@@ -63,6 +63,7 @@ public class TC_01 extends BaseClass {
 					   
 					   driver.switchTo().window(parentWin);
 						 Thread.sleep(30000);
+						 System.out.println("hello");
 						        
 	  } 
 	}
