@@ -26,6 +26,11 @@ public class XpathPractice {
 		System.out.println(msgText);
 		driver.findElement(By.xpath("//input[@id='toolTipTextField']")).sendKeys(msgText); 
 		System.out.println("last line");
+		newMethod();
+	}
+	
+	public static void newMethod() {
+		System.out.println("hi");
 	}
 }
    
