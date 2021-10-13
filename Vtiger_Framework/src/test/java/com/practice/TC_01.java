@@ -52,7 +52,7 @@ public class TC_01 extends BaseClass {
 					 wLib.waitUntilPageLoad(driver);
 
 					WebElement Assigned = createContact.getAssignedTo();
-					wLib.SelectAllOption(Assigned, ASSIGNEDTO);
+					wLib.SelectAllOption(Assigned, ASSIGNEDTO); 
 					   wLib.waitUntilPageLoad(driver);
 		        
 					WebElement lifeCycle = createContact.getLifecycleStage();
